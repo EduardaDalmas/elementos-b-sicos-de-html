@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <title> CSS grid layout </title>
+    <meta charset="utf-8">
+    <style>
+        .gridContainer {
+            background-color: yellow;
+            width: 100%;
+            display: grid;
+            /* grid-template-columns: repeat(2, 100px) 150px 100px; */
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: 150px 150px;
+            /* grid-row-gap: 10px;
+            grid-column-gap: 20px; */
+            grid-gap: 10px 20px;
+        }
+
+        .gridContainer div {
+            background-color: blue;
+            font-size: 36px;
+        }
+
+        /* .gridContainer div:nth-child(1) {
+            background-color: red;
+            grid-row: 1 / 2;
+            grid-column: 2 / -1;
+        }
+
+        .gridContainer div:nth-child(3) {
+            background-color: green;
+            grid-row: 2 / 4;
+            grid-column: 1 / 2;
+        } */
+
+        /* .gridContainer div:nth-child(even) {
+            background-color: rgb(150, 150, 193);
+        }
+
+        .gridContainer div:nth-child(odd) {
+            background-color: rgb(204, 204, 218);
+        } */
+    </style>
+</head>
+
+<body>
+    <h2>Exemplo de CSS grid layout</h2>    
+
+    <div class="gridContainer">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </div>
+
+</body>
+
+</html>

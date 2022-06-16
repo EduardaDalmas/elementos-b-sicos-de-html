@@ -1,0 +1,53 @@
+.titulo {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    font-size: x-large; 
+}
+
+.imagem {
+    height: 40px;
+    width: 40px;
+}
+
+table, th, td {
+    border: 1px solid blue;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.primeiroParagrafo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: justify; 
+    font-size: large; 
+    color: blue;
+}
+
+.segundoParagrafo {
+    font-family:'Courier New', Courier, monospace; 
+    font-size: smaller;
+    text-align: justify; 
+    color:blueviolet;
+}
+
+.terceiroParagrafo {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: small;
+    text-align: justify; 
+    color: green;
+}
+
+.quartoParagrafo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size:x-small;
+    text-align: justify; 
+    color:yellow;
+}
+
+.quintoParagrafo {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: medium;
+    text-align: justify; 
+    color: red;
+}

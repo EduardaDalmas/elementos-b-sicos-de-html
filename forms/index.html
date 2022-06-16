@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Forms</title>
+</head>
+<body>
+    <form id="form" method="get" ac tion="">
+        <fieldset>
+            <legend>Dados pessoais:</legend>
+            <div>
+                <label for="fnome">Nome completo: </label><br>
+                <input type="text" id="fnome" name="fnome" maxlength="50"></input>
+            </div>
+            <div>
+                <label for="femail">E-mail: </label><br>
+                <input type="email" id="femail" name="femail" maxlength="13"></input>
+            </div>
+            <div>
+                <label for="ftel">Telefone: </label><br>
+                <input type="tel" id="ftel" name="ftel" maxlength="13"></input>
+            </div>
+            <div>
+                <label for="fidade">Idade: </label><br>
+                <input type="number" id="fidade" name="fidade" maxlength="13"></input>
+            </div>
+            <div>
+                <label for="fnasc">Data de Nascimento: </label><br>
+                <input type="date" id="fnasc" name="fnasc" maxlength="13"></input>
+            </div>
+            <div>
+                <label for="fendereco">Estado: </label><br>
+                <input type="radio" value="fendereco" name="fendereco[]">RS</input>
+                <input type="radio" value="fendereco" name="fendereco[]">SC</input>
+                <input type="radio" value="fendereco" name="fendereco[]">PR</input>
+            </div>
+            <div>
+                <label for="festado">Selecione uma cidade: </label><br>
+                <select id="festado" name="festado">
+                    <option></option>
+                    <option>Novo Hmburgo</option>
+                    <option>Campo Bom</option>
+                    <option>São Leopoldo</option>
+                    <option>Estância Velha</option>
+                    <option>Ivoti</option>
+                </select>
+            </div>
+            <div>
+
+            </div>
+            <div>
+                <label for="fsobre">Fale sobre você: </label><br>
+                <textarea id="fsobre" name="fsobre" rows="5" cols="33"></textarea>
+            </div>
+            <div>
+                <label for="ffoto">Anexar fotografia do candidato: </label><br>
+                <input type="image" id="ffoto" name="ffoto" maxlength="50"></input>
+            </div>
+            <div>
+                <label for="ffile">Anexar currículo: </label><br>
+                <input type="file" id="ffile" name="ffile" maxlength="50"></input>
+            </div>
+            <div>
+                <label for="fsenha">Senha: </label><br>
+                <input type="password" id="fsenha" name="fsenha" maxlength="50"></input>
+            </div>
+            <div>
+                <label for="fconfirmasenha">Confirme a senha: </label><br>
+                <input type="password" id="fconfirmasenha" name="fconfirmasenha" maxlength="50"></input>
+            </div>
+            <div>
+                <input type="checkbox" value="ftermo" name="ftermo">Aceito os termos de uso</input><br>
+            </div>
+            <div>
+                <label for="favaliacao">Avalie sua experiência conosco: </label><br>
+                <input value="favaliacao" type="range">
+            </div>
+            <div>
+                <input type="button" value="Saiba mais sobre a empresa"></input>
+            </div>
+            <div>
+                <input type="reset" value="Limpar Campos"></input>
+                <input type="submit" value="Enviar formulário"></input>
+            </div>
+        </fieldset><br>
+    </form>
+</body>
+</html>

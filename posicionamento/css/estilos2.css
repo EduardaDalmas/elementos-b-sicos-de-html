@@ -1,0 +1,16 @@
+h1, p, h2, strong {
+    border: 1px solid blue;
+}
+
+p {
+    position: relative;
+    top: 90px;
+    left: 100px;
+}
+
+strong {
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+

@@ -1,0 +1,31 @@
+.exemplo_flexbox {
+    height: 250px;
+    border: 1px solid orangered;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: nowrap;
+    flex-flow: row nowrap; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.exemplo_flexbox div {
+    background: rgb(0, 127, 255);
+    /* width: 300px; */
+    flex-basis: 100px;
+    margin: 15px;
+    height: 60px;
+}
+
+.exemplo_flexbox div:nth-child(2) {
+    background: rgb(255, 0, 217);
+    flex-shrink: 2;
+    order: 1;
+}
+
+.exemplo_flexbox div:nth-child(4) {
+    background: rgb(255, 170, 0);
+    flex-shrink: 2;
+    order: 2;
+    align-self: flex-end;
+}

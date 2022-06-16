@@ -1,0 +1,26 @@
+div {
+    border: 1px solid blue;
+}
+
+#um {
+    float: left;
+    color: red;
+}
+
+#dois {
+    float: left;
+    color: grey;
+}
+
+#tres {
+    float: left;
+    color: green;
+}
+
+#quatro {
+  color: brown;
+}
+
+#cinco {
+
+}

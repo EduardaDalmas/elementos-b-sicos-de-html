@@ -1,0 +1,62 @@
+div {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#all {
+    width: 80%;
+    margin-left: 10%;
+}
+
+#header {
+    height: 50px;
+    background-color: yellow;
+}
+
+#formacoes {
+    height: 150px;
+}
+
+#videos {
+    height: 100px;
+}
+
+#sistemas {
+    height: 150px;
+}
+
+#contatos {
+    height: 100px;
+}
+
+.formacao {
+    height: 120px;
+    width: 30%;
+    background-color: rgb(237, 237, 156);
+    float: left;
+    margin-left: 20px;
+}
+
+.video {
+    height: 80px;
+    width: 30%;
+    background-color: rgb(155, 155, 73);
+    float: left;
+    margin-left: 20px;
+}
+
+.sistema {
+    height: 140px;
+    width: 30%;
+    background-color: orange;
+    float: left;
+    margin-left: 20px;
+}
+
+.contato {
+    height: 80px;
+    width: 20%;
+    background-color: lightgrey;
+    float: left;
+    margin-left: 35px;
+}

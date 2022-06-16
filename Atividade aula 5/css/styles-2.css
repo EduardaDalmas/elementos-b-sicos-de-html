@@ -1,0 +1,77 @@
+div {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#topo {
+    height: 100px;
+    background-color: grey;
+}
+
+#menu {
+    height: 30px;
+    background-color: darkgrey;
+}
+
+#centro {
+    height: 400px;
+    background-color: lightcyan;
+}
+
+#rodape {
+    height: 30px;
+    background-color: lightpink;
+}
+
+#esq {
+    height: 380px;
+    width: 60%;
+    background-color: lightcoral;
+    float: left;
+}
+
+#dir {
+    height: 380px;
+    width: 30%;
+    background-color: lightpink;
+    float: right;
+}
+
+#l1 {
+    height: 160px;
+    background-color: blueviolet;
+}
+
+#l2 {
+    height: 160px;
+}
+
+.c1 {
+    height: 160px;
+    width: 45%;
+    float: left;
+    margin-left: 23px;
+    background-color: pink;
+}
+
+#form1 {
+    height: 30px;
+    background-color: blueviolet;
+}
+
+#mail1 {
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.dl1 {
+    height: 100px;
+}
+
+.anuncio {
+    height: 80px;
+    width: 40%;
+    float: left;
+    background-color:blueviolet;
+    margin-left: 20px;
+}

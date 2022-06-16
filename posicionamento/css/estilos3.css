@@ -1,0 +1,10 @@
+h1, p, h2, strong {
+    border: 1px solid blue;
+}
+
+b {
+    position: absolute;
+    left: 200px;
+    top: 390px;
+}
+

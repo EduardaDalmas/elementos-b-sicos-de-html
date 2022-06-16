@@ -1,0 +1,83 @@
+div {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#cabecalho {
+    height: 100px;
+    background-color: lightgrey
+}
+
+#menu1 {
+    height: 20px;
+    background-color: grey;
+}
+
+#menu2 {
+    height: 20px;
+    background-color: lightpink;
+}
+
+#conteudo {
+    height: 300px;
+}
+
+#fotos {
+    height: 150px;
+}
+
+#rodape {
+    height: 40px;
+    background-color: rgb(227, 63, 167);
+}
+
+#logo {
+    height: 90px;
+    width: 35%;
+    float: left;
+    background-color: lightcoral;
+    margin: 5px;
+}
+
+#banner {
+    height: 90px;
+    width: 60%;
+    float: right;
+    background-color: lightcoral;
+    margin: 5px;
+}
+
+#chamadas {
+    height: 290px;
+    width: 55%;
+    background-color: rgb(157, 146, 227);
+    float: left;
+}
+
+#news {
+    height: 290px;
+    width: 40%;
+    background-color: aliceblue;
+    float: right;
+}
+
+.news1 {
+    height: 130px;
+    background-color: brown;
+    margin: 10px;   
+}
+
+.fotos1 {
+    height: 120px;
+    width: 23%;
+    background-color: aquamarine;
+    float: left;
+    margin: 13px;
+}
+
+.fotos2 {
+    height: 50px;
+    width: 90%;
+    background-color:azure;
+    margin: 13px;
+}

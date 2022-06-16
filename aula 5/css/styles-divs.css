@@ -1,0 +1,67 @@
+div {
+    border: 1px solid black;
+}
+
+#fundo {
+    background-image: url(https://cdn.leroymerlin.com.br/contents/tipos_de_grama_e_suas_peculiaridades_4fb0_original.jpg);
+}
+
+#tudo {
+    margin: auto;
+    width: 600px;
+    background-color: orange;
+}
+
+#topo {
+    height: 75px;
+    background-color: green;
+    position: relative;
+}
+
+#principal {
+    background-color: grey;
+    height: 100px;
+    width: 250px;
+    float: left;
+}
+
+#auxiliar {
+    background-color: pink;
+    height: 100px;
+    width: 150px;
+    float: right;
+}
+
+#fotos {
+    height: 75px;
+    background-color: yellow;
+    clear: both;
+}
+
+#rodape {
+    height: 75px;
+    background-color: blue;
+}
+
+img {
+    width: 100%;
+}
+
+#logo {
+    width: 100px;
+    position: absolute;
+    bottom: -15px;
+    right: 30px;
+}
+
+.esq11 {
+    height: 50px;
+    width: 32%;
+    float: left;
+}
+
+.esq21 {
+    height: 50px;
+    width: 49%;
+    float: left;
+}

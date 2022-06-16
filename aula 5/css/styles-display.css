@@ -1,0 +1,28 @@
+h1, h2, div, p {
+    border: 1px solid black;
+}
+
+span, em, strong, a, b, i {
+    background-color: yellow;
+}
+
+strong {
+    display: block;
+    height: 100px;
+    width: 250px;
+    padding: 25px;
+    /* visibility: hidden; */
+}
+
+#midia {
+    width: 100%;
+}
+
+.minions {
+    display: inline-block;
+    width: 32%;
+}
+
+.foto-minions {
+    width: 100%;
+}

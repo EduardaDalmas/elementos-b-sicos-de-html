@@ -1,0 +1,42 @@
+div {
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#header {
+    height: 150px;
+    background-color: grey;
+}
+
+#title {
+    height: 300px;
+    background-color: rgb(191, 188, 188);
+}
+
+#message {
+    height: 100px;
+    background-color: rgb(157, 157, 157);
+}
+
+#product1 {
+    height: 200px;
+    background-color: rgb(97, 104, 116);
+}
+
+#product2 {
+    height: 200px;
+    background-color: rgb(97, 111, 118);
+}
+
+#footer {
+    height: 110px;
+    background-color: rgb(164, 165, 165);
+}
+
+.products1 {
+    height: 190px;
+    width: 23%;
+    background-color: lightseagreen;
+    float: left;
+}
